@@ -8,19 +8,24 @@
     <title>Lista de Tareas</title>
 </head>
 <body>
-    
     <div class="container">
         <h1>Lista de tareas</h1>
         <input type="text" class="inputTarea" id="inputTarea" placeholder="Ingrese una tarea...">
-        <ul id="listaTarea"></ul>
+        <div class="tasks-container">
+            <div class="task-section">
+                <h2>Tareas Realizadas</h2>
+                <ul id="realizadas"></ul>
+            </div>
+            <div class="task-section">
+                <h2>Tareas Pendientes</h2>
+                <ul id="pendientes"></ul>
+            </div>
+        </div>
     </div>
-
     <div class="loader" id="loader"></div>
-
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
     <script src="index.js"></script>
 </body>
 </html>
