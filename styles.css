@@ -161,4 +161,18 @@ p {
     100% { transform: rotate(360deg); }
 }
 
+.tasks-container {
+    display: flex;
+    justify-content: space-between;
+}
 
+.task-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.task-section h2 {
+    font-size: 1.2em;
+    color: var(--dark-orange);
+    text-transform: uppercase;
+}
